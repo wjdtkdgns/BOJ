@@ -1,3 +1,0 @@
-# BOJ
-
-Climbing to RUBY
