@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// 중복되는 곳을 찾아야한다. 아니면 시간초과 바로 뜬다.
+
 typedef pair<int, int> p;
 
 vector<p> V[501];
@@ -49,6 +51,8 @@ void clear_quickest(int cur){
         int j=0;
         while(V[past][j].first!=cur)
             j++;
+        if (V[past][j].second == -1)
+            continue;
         V[past][j].second = -1;
         clear_quickest(past);
     }
