@@ -1,21 +1,14 @@
 CC = g++
 
 NAME = a.out
-SRC = DFS/1167.cpp
-OBJ = $(SRC:%.c=%.o)
+SRC = DIJKSTRA/5719.cpp
 
 all : $(NAME)
 
-%.o : %.c
-	$(CC) $(CFLAGS) -c $< -o $@
-
-$(NAME) : $(OBJ)
-	$(CC) $(CFLAGS) -o $@ $^
+$(NAME) : $(SRC)
+	$(CC) -o $@ $^
 
 clean : 
-	rm -f $(OBJ)
-
-fclean : clean
 	rm -f $(NAME)
 
-re : fclean all
+re : clean all
