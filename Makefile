@@ -1,7 +1,7 @@
 CC = g++
 
 NAME = a.out
-SRC = DIJKSTRA/5719.cpp
+SRC = DIJKSTRA/1504.cpp
 
 all : $(NAME)
 
