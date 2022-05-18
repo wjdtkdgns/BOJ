@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// longlong이 오버플로우 발생함
+
 unsigned long long num[101][101];
 unsigned long long num2[101][101];
 
