@@ -1,7 +1,7 @@
 CC = g++
 
 NAME = a.out
-SRC = LIS/12015.cpp
+SRC = LIS/14002.cpp
 
 all : $(NAME)
 
