@@ -6,6 +6,9 @@
 
 using namespace std;
 
+// a,b에 -INT_MAX를 넣을 경우 오버플로우 발생함.
+// limit 값을 넣는 것을 조심해야함
+
 string str;
 int dp[200001];
 int len;
