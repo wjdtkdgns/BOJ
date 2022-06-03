@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// 뒤부터 하나하나 비교하면 문자열 찾기 가능
+
 int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);
