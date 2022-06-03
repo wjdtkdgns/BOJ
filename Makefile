@@ -1,7 +1,7 @@
 CC = g++
 
 NAME = a.out
-SRC = DP/1915.cpp
+SRC = DP/9252.cpp
 
 all : $(NAME)
 
