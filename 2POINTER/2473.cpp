@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// 2개를 확정해놓은 상태에서 찾지말고, 기준점 1개 정해두고 나머지 2개 찾기
+
 int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);
