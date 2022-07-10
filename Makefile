@@ -1,7 +1,7 @@
-CC = g++
+CC = g++ -std=c++11
 
 NAME = a.out
-SRC = IMPLEMENT/3190.cpp
+SRC = IMPLEMENT/15683.cpp
 
 all : $(NAME)
 
